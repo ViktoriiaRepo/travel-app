@@ -1,0 +1,43 @@
+.appContainerStyles {
+  margin-bottom: 160px;
+}
+
+.appBarStyles {
+  background: linear-gradient(
+    90deg,
+    rgb(252, 250, 250) 0%,
+    rgb(235, 233, 235) 50%,
+    rgb(244, 224, 179) 100%
+  );
+  color: white;
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.77);
+  padding: 20px 40px;
+}
+
+.titleStyle {
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.containerStyles {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0px 2px 38px rgba(0, 0, 0, 0.2);
+}
+
+.iconStyle {
+  margin-right: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.77);
+  border-radius: 50%;
+}
+
+.buttonsContainerStyle {
+  margin-top: 40px;
+}
+@media (min-width: 600px) {
+  .containerGreed {
+    flex-direction: column-reverse;
+  }
+}
